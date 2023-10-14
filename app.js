@@ -1,10 +1,8 @@
 
-
 // -------1 City Name-------
 
 var cities = ["karachi","lahore","islamabad"];
 var input = prompt("Enter Your City Name");
-
 
 if(input == "karachi"){
     document.write("WellCome to City is light")
