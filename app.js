@@ -20,7 +20,7 @@ else{
 
 // --------2 Gender--------
 
-var Ganger = ["Male","Female","Other"];
+var Gander = ["Male","Female","Other"];
 var input = prompt("Enter Your Gander");
 
 
@@ -56,7 +56,6 @@ else{
     document.write("This is Not Trafic Signal Color")
 }
 isfound(true)
-
 
 
 // --------4 car fuel ---------
