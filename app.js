@@ -164,8 +164,8 @@ var obtMarks = eng + urdu + math;
 var percent = (obtMarks / totalMarks) * 100;
 
 document.write("<h1>Marks Sheet </h1> <br><br><br>")
-document.write("Total Marks: " + "<b>" + totalMarks + "<br><br>")
-document.write("Marks Obtained: " + obtMarks + "<br>")
+document.write("Total Marks:" + "<b>" + totalMarks + "<br><br>")
+document.write("Marks Obtained:" + obtMarks + "<br>")
 document.write("Percentage: " + percent+ "%" + "<br>")
 
 if(percent >=80 ){
