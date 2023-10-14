@@ -167,7 +167,7 @@ var obtMarks = eng + urdu + math;
 var percent = (obtMarks / totalMarks) * 100;
 
 document.write("<h1>Marks Sheet </h1> <br><br><br>")
-document.write("Total Marks: " + "<b>" + totalMarks + "</b><br>")
+document.write("Total Marks: " + "<b>" + totalMarks + "<br><br>")
 document.write("Marks Obtained: " + obtMarks + "<br>")
 document.write("Percentage: " + percent+ "%" + "<br>")
 
@@ -183,13 +183,13 @@ else if(percent <=79 && percent >=70){
 
 else if(percent <=69 && percent >=60){
     document.write("Grade: B" + "<br>")
-    document.write("Remarks: You need to improve" + "<br>")}
-
+    document.write("Remarks: You need to improve" + "<br>")
+}
 
 else if(percent <=60){
     document.write("Grade: Fail" + "<br>")
-    document.write("Remarks: Sorry.. Work Hard" + "<br>")}
-
+    document.write("Remarks: Sorry.. Work Hard" + "<br>")
+}
 
 // ----------7 Guess Game------
 
