@@ -200,7 +200,7 @@ if( Guessnum === Secratenum){
 }else if( Guessnum == Secratenum + 1 || Guessnum == Secratenum - 1){
     alert("Close enough to the correct answer")
 }else{
-    alert("Sorry Wrong Number Please try Again Leter!!")
+    alert("Sorry Wrong Number Please try Again Leter!!!")
 }
 
 
